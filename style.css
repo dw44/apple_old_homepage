@@ -28,6 +28,8 @@ body {
     background: url('assets/background_image.jpg') 50% 100% no-repeat;
 }
 
+/* ---------- */
+
 .promos {
     margin: 0 auto;
     width: 1440px;
@@ -35,6 +37,7 @@ body {
 }
 
 .promo-list {
+    width: 100%;
     display: flex;
     flex-direction: row;
 }
@@ -48,4 +51,39 @@ body {
 .promo-item {
     width: 100%;
     height: 100%;
+}
+
+/* ---------- */
+
+footer {
+    width: 1000px;
+    margin: 20px auto;
+    border: 2px solid black;
+    font-size: 0.833em;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.footer-left {
+    line-height: 1.2;
+    color: #6e6e6e;
+}
+
+.footer-link,
+.footer-link:visited {
+    color: #08c;
+}
+
+.footer-right li{
+    display: inline;
+    border-left: 1px solid #ccc;
+    padding: 0 6px;
+}
+
+#usa {
+    align-self: flex-end;
 }
